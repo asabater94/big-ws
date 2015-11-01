@@ -20,8 +20,8 @@ public class TranslatorServiceTest {
     TranslatorService translatorService;
     @Test
     public void translateTest() throws Exception {
-        TranslatedText translatedText = translatorService.translate("en", "es", "I have not failed, I've just learned 481269 ways of how not to use travis and github.");
-        assertEquals("No he fracasado, he aprendido 481269 maneras de cómo no usar travis y github.",translatedText.getTranslation());
+        TranslatedText translatedText = translatorService.translate("en", "es", "This is a test of translation service");
+        assertEquals("Esto es una prueba de servicio de traducción",translatedText.getTranslation());
     }
 
 }
