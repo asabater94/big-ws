@@ -49,4 +49,4 @@ public class TranslatorEnpointTest {
 		assertThat(response, instanceOf(GetTranslationResponse.class));
 		assertThat(((GetTranslationResponse) response).getTranslation(), is("No he fracasado, he aprendido 481269 maneras de cómo no usar travis y github."));
 	}	
-}
+} 
